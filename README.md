@@ -8,17 +8,20 @@ Github Repository [Link](https://github.com/SCIT46-1/taiso-web)
 
 ## 🛠 技術スタック
 
-### **Backend**
-- Java 17
-- Spring Boot 3.x
-- JPA / Hibernate
-- MySQL
+### Front-End  
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zustand&logoColor=white) ![React Router](https://img.shields.io/badge/React--Router--DOM-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-### **Frontend**
-- React
-- TailwindCSS
-- Zustand
-- React-router-dom
+### Back-End  
+![Java](https://img.shields.io/badge/Java%2017-007396?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![JPA](https://img.shields.io/badge/JPA%20/%20Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+
+### Database  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Version Control  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### Tools  
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white) ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ## 👥 担当範囲
 
@@ -49,8 +52,6 @@ Github Repository [Link](https://github.com/SCIT46-1/taiso-web)
 	- Spring SecurityとJWTを活用したユーザー認証・認可機能の実装
 
 ## 🎯 主な機能
-
-[]
 
 ### 📍 ルート共有機能  
 GPXファイルをアップロードし、地図上に表示・共有できます。人気のルートランキングも提供します。
@@ -103,7 +104,29 @@ Zustandを用いて認証情報をグローバルに管理し、ログイン状�
 - Notion・Discordを活用し、開発後の振り返りやプロセス改善を行い、チーム文化の醸成にも貢献しました
 
 ## 📘 学んだこと
-[]
+
+### 技術リーダーとしての技術選定と責任感
+プロジェクト初期に技術リーダーとして技術スタックの選定やシステムアーキテクチャの設計を担当し、単なる技術選択にとどまらず、チーム全体の開発方針や協業体制を定義する責任の重さを実感しました。
+
+フロントエンドとバックエンドの連携方法、状態管理の手法、認証・認可のフロー設計などにおいて、技術的な意思決定がプロジェクトの生産性や拡張性に大きな影響を与えることを深く理解しました。
+
+この経験から、技術選定の際には短期的な利便性だけでなく、長期的な保守性やチームメンバーの理解度まで考慮する必要があると学びました。
+
+### 中規模チームにおける GitHub ブランチ戦略の設計と運用
+
+6人規模のチーム開発において、GitHub Flow をベースとしたブランチ戦略を設計・運用しました。
+
+機能単位でブランチを切り、Pull Request を通じてコードレビューおよびマージを管理することで、コンフリクトの防止とコード品質の維持に貢献しました。
+
+このような取り組みを通じて、リーダーシップだけでなく、健全なチーム文化の形成に必要な協業スキルの重要性を実感しました。
+
+### ユーザー認証・認可を考慮した UX 設計
+
+ユーザーのログイン状態や権限に応じた画面表示の切り替え、アクセス制御の UI 表現など、認証・認可を考慮した UX 設計を行いました。
+
+具体的には、ルーティングレベルでのアクセス制御や、API トークンの有無による UI 状態の分岐などを設計し、セキュリティとユーザビリティのバランスを意識した実装を目指しました。
+
+この経験を通じて、技術的な要件を満たしつつ、ユーザー視点での体験設計を行うことの難しさとやりがいを学びました。
 
 ## 📚 API Documentation
 
